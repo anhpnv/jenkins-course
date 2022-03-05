@@ -24,7 +24,7 @@ RUN mkdir -p /tmp/download && \
     rm -rf /tmp/download && \
     groupadd -g 999 docker && \
     usermod -aG docker jenkins && \
-    echo "ABC"
+    echo "AC"
 
 # expose ssh port
 EXPOSE 22
